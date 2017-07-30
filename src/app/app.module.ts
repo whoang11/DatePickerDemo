@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+import {DpDatePickerModule} from 'ng2-date-picker';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +10,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, DpDatePickerModule, ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
